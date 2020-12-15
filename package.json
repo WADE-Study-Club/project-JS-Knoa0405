@@ -4,7 +4,8 @@
   "description": "project-JS-Knoa0405",
   "main": "index.js",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "json-server": "^0.16.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {},
   "scripts": {

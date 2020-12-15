@@ -21,11 +21,11 @@ section.form-container {
 }
 
 h1.title {
-  margin-top : 20%;
+  margin : 10%;
   font-size: 4vw;
 }
 
-form.login-form {
+section > div {
   display : flex;
   flex-direction: column;
   justify-content: center;
@@ -36,17 +36,17 @@ form.login-form {
   max-height: 60%;
 }
 
-form > input {
+input {
   font-size: 1rem;
   padding : 1rem;
   width: 70%;
   margin-bottom : 2rem;
   border : none;
   border-radius: 1.5rem;
-  box-shadow: 1px 1px 25px 15px #dcdcff ;
+  box-shadow: 1px 1px 25px 15px #e5e5e5 ;
 }
 
-form > button.login-button {
+button.login-button {
   width: 50%;
   border: none;
   border-radius: 1.5rem;
@@ -57,6 +57,21 @@ form > button.login-button {
   cursor: pointer;
 }
 
-form > button.login-button:hover {
+button.login-button:hover {
+  background-color: #d3d3d3;
+}
+
+button.logout-button {
+  width: 50%;
+  border: none;
+  border-radius: 1.5rem;
+  padding : 0.5rem;
+  background-color: #e5e5e5;
+  font-size : 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.logout-button:hover {
   background-color: #d3d3d3;
 }
