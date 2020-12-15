@@ -1,0 +1,23 @@
+{
+  "name": "project-js-knoa0405",
+  "version": "1.0.0",
+  "description": "project-JS-Knoa0405",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "json-server": "json-server --watch data.json --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knoa0405/project-JS-Knoa0405.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knoa0405/project-JS-Knoa0405/issues"
+  },
+  "homepage": "https://github.com/Knoa0405/project-JS-Knoa0405#readme"
+}
