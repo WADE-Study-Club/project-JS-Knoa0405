@@ -1,0 +1,145 @@
+body {
+  font-family: 'Hammersmith One', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-image : linear-gradient(#65a9fd,#55bef9,#60dee4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* sign-up_COMMON */
+
+.sign-up-form > button.sign-up-button {
+  width: 50%;
+  border: none;
+  border-radius: 1.5rem;
+  padding : 0.5rem;
+  background-color: #e5e5e5;
+  font-size : 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-up-form > button.sign-up-button:hover {
+  background-color: #d3d3d3;
+}
+
+button.logout-button {
+  width: 50%;
+  border: none;
+  border-radius: 1.5rem;
+  padding : 0.5rem;
+  background-color: #e5e5e5;
+  font-size : 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-up-form > button.logout-button:hover {
+  background-color: #d3d3d3;
+}
+
+.sign-up-form > input {
+  font-size: 1rem;
+  padding : 1rem;
+  width: 80%;
+  margin-bottom : 2rem;
+  border : none;
+  border-radius: 1.5rem;
+  box-shadow: 1px 1px 25px 15px #e5e5e5 ;
+}
+
+/* sign-up_MAIN */
+
+div.form-container {
+  display: flex;
+  width: 50vw;
+  height: 80vh;
+  min-width: 70%;
+  min-height: 60%;
+  border-radius: 1rem;
+  background : #fff;
+}
+
+main.sign-up-main {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-width: 40%;
+}
+
+main > h1.title {
+  margin-top : 5%;
+  font-size: 50px;
+}
+
+main > .sign-up-form {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 85%;
+  max-height: 60%;
+}
+
+/* ANIMATION */
+
+@keyframes fadein {
+  from {
+   opacity: 0;
+  }
+
+  to {
+   opacity: 1;
+  }
+}
+
+/* sign-up_ASIDE */
+
+aside.form-aside {
+  display : flex;
+  width: 100%;
+  height: 80vh;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  animation: 2s ease-in-out fadein;
+  background : url("./images/mountain.jpg") center/cover ;
+}
+
+/* LOGOUT_CONTAINER */
+
+.logout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items : center;
+  width: 100%;
+  height: 100%;
+}
+
+.logout-container > h1.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.logout-container > span.logout-nickname {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* MEDIA_1024PX */
+
+@media screen and (max-width: 1024px) {
+  aside.form-aside {
+    display : none;
+  }
+  
+  main.sign-up-main {
+    width: 100%;
+  }
+}

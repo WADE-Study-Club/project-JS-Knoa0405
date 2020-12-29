@@ -12,54 +12,29 @@
       "password": "qwe123"
     },
     {
-      "id": "d235e531-21be-4e1e-93ea-d9db9f604289",
-      "email": "mike1123",
-      "password": "qwe123"
-    },
-    {
-      "id": "34e96a62-eaf4-4d52-9cfc-bc55d3419e9a",
-      "email": "mike1123@naver.com",
-      "password": "qwe123"
-    },
-    {
-      "id": "7230214c-e38f-434c-8720-7ca74eec6674",
-      "email": "mike1123@naver.com",
-      "password": "qwe123"
-    },
-    {
-      "id": "c2b9a884-1541-459b-9195-ffc483d6de61",
-      "email": "",
-      "password": "qwe123"
-    },
-    {
-      "id": "2b4f982c-dd7d-4b71-aedd-0edcb05c8901",
-      "email": "",
-      "password": "qwe123"
-    },
-    {
-      "id": "3e53d605-ef4e-4d8b-98b2-9d4344f785a3",
+      "id": "624ed6e5-ee92-4a97-b5b3-0ed61d7268a2",
       "email": "mike1124@naver.com",
       "password": "qwe123"
     },
     {
-      "id": "0fa144b7-20e9-48a4-9bd2-ad5655f23da0",
+      "id": "5a870c69-00f8-4c4a-b70f-dcbb01e0db0f",
+      "email": "tester@example.com",
+      "password": "qwe123"
+    },
+    {
+      "id": "3469c1fd-e818-49c0-bb93-f6f1aa531e83",
+      "email": "tester@example.com",
+      "password": "qwe123"
+    },
+    {
+      "id": "ac52aca6-de0d-4d2e-b9cf-82b451c06966",
+      "email": "tester@example.com",
+      "password": "qwe123"
+    },
+    {
+      "id": "91dc9bf1-a834-4e02-ac1c-b41a1962174c",
       "email": "",
-      "password": "qwe123"
-    },
-    {
-      "id": "3ab96aad-11a3-4112-8669-67e67d5c31f4",
-      "email": "",
-      "password": "qwe123"
-    },
-    {
-      "id": "f16df415-5fb8-472a-b2e9-41e10f1d7fe5",
-      "email": "mike1124@naver.com",
-      "password": "qwe123"
-    },
-    {
-      "id": "0ba0a109-db54-455d-a3db-134e578d4d95",
-      "email": "mike1124@naver.com",
-      "password": "qwe123"
+      "password": ""
     }
   ]
 }
