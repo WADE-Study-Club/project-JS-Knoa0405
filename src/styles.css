@@ -50,6 +50,12 @@ button.logout-button {
   box-shadow: 1px 1px 25px 15px #e5e5e5 ;
 }
 
+.login-form > p.alert-text {
+  color : #ff0000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 /* LOGIN_MAIN */
 
 div.form-container {
